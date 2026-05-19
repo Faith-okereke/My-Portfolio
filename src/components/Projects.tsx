@@ -47,7 +47,7 @@ export default function Projects() {
             <motion.div
               key={idx}
               whileHover={{ y: -5 }}
-              className="bg-[#0a0a0a] border border-grid p-8 flex flex-col justify-between group h-[450px] bento-card-hover"
+              className="bg-[#0a0a0a] border border-grid p-8 flex flex-col justify-between group h-[500px] bento-card-hover"
             >
               <div>
                 <div className="flex justify-between items-start mb-12">

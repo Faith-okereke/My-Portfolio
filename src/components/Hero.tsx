@@ -79,6 +79,7 @@ export default function Hero() {
             
             <motion.a
               href="/cv.pdf"
+              download="Faith_Okereke_CV.pdf"
               target="_blank"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
