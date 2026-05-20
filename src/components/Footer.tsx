@@ -29,7 +29,7 @@ export default function Footer() {
               <a href="https://github.com/Faith-okereke" target="_blank" className="flex items-center gap-3 hover:text-accent transition-colors group">
                 GitHub <ArrowUpRight className="w-6 h-6 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </a>
-              <a href="https://x.com/faith_okereke" target="_blank" className="flex items-center gap-3 hover:text-accent transition-colors group">
+              <a href="https://x.com/girlgroovee" target="_blank" className="flex items-center gap-3 hover:text-accent transition-colors group">
                 X (Twitter) <ArrowUpRight className="w-6 h-6 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </a>
             </div>
@@ -38,7 +38,7 @@ export default function Footer() {
           <div className="md:col-start-3 self-end text-center md:text-right">
              <div className="mb-6 flex justify-center md:justify-end gap-10 text-gray-600">
                 <a href="https://github.com/Faith-okereke" target="_blank" className="hover:text-accent transition-colors"><Github className="w-6 h-6" /></a>
-                <a href="https://x.com/faith_okereke" target="_blank" className="hover:text-accent transition-colors"><Twitter className="w-6 h-6" /></a>
+                <a href="https://x.com/girlgroovee" target="_blank" className="hover:text-accent transition-colors"><Twitter className="w-6 h-6" /></a>
                 <a href="mailto:faithokereke26@gmail.com" className="hover:text-accent transition-colors"><Mail className="w-6 h-6" /></a>
                 <a href="tel:08136896184" className="hover:text-accent transition-colors"><Phone className="w-6 h-6" /></a>
              </div>

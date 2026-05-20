@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 const SKILLS = {
   core: [
     { name: 'HTML5', slug: 'html5' },
-    { name: 'CSS', slug: 'css3' },
+    { name: 'CSS', slug: 'css' },
     { name: 'Tailwind CSS', slug: 'tailwindcss' },
     { name: 'JavaScript', slug: 'javascript' },
     { name: 'TypeScript', slug: 'typescript' },
@@ -16,7 +16,7 @@ const SKILLS = {
     { name: 'Python', slug: 'python' },
     { name: 'Django', slug: 'django' },
     { name: 'MongoDB', slug: 'mongodb' },
-    { name: 'Claude', slug: 'claude' },
+    { name: 'Claude', slug: 'anthropic' },
     { name: 'Git', slug: 'git' },
     { name: 'GitHub', slug: 'github' },
     { name: 'Figma', slug: 'figma' },
