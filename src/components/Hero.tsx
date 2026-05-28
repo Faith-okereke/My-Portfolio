@@ -38,13 +38,13 @@ export default function Hero() {
               Computer Science undergraduate building high-performance, type-safe web experiences.
             </p>
 
-            <div className="flex flex-wrap gap-4 items-start">
-              <div className="relative">
+            <div className="flex flex-col sm:flex-row gap-4 items-stretch sm:items-start w-full sm:w-auto">
+              <div className="relative w-full sm:w-auto">
                 <motion.button
                   onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="bg-accent text-black px-10 py-5 text-sm font-bold uppercase tracking-widest transition-colors hover:bg-white flex items-center gap-3"
+                  className="bg-accent text-black px-6 py-4 sm:px-10 sm:py-5 text-xs sm:text-sm font-bold uppercase tracking-widest transition-colors hover:bg-white flex items-center justify-center gap-3 w-full sm:w-auto"
                 >
                   Get In Touch
                   <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : ''}`} />
@@ -85,7 +85,7 @@ export default function Hero() {
                 target="_blank"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="border border-grid text-white px-10 py-5 text-sm font-bold uppercase tracking-widest transition-colors hover:bg-white hover:text-black"
+                className="border border-grid text-white px-6 py-4 sm:px-10 sm:py-5 text-xs sm:text-sm font-bold uppercase tracking-widest transition-colors hover:bg-white hover:text-black flex items-center justify-center w-full sm:w-auto text-center"
               >
                 Download CV
               </motion.a>
